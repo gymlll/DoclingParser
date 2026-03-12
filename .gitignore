@@ -1,0 +1,10 @@
+﻿# Local secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated outputs (optional to commit)
+output/
+template/

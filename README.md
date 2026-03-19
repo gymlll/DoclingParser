@@ -4,7 +4,7 @@
 
 ## 项目结构
 
-- `test.py`：解析 `template/` 目录下的 `.xlsx`，输出到 `outputq/`
+- `test.py`：解析 `template/` 目录下的 `.xlsx`，输出到 `output/`
 - `test2.py`：解析含图片的 Excel（直接处理 `template/` 下的 `.xlsx`），重写图片路径到 `images/`，输出到 `output/`
 - `test3.py`：解析含嵌入式图表以及图片的 Excel（导出 ChartObjects 与 Shapes 的图表为 PNG 并合并到 Markdown），递归处理 `template/`，输出到 `output/`
 - `chat_with_doc.py`：将解析后的 Markdown 注入聊天上下文，启动交互式问答

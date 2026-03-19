@@ -26,9 +26,9 @@ def main() -> None:
     project_root = Path(__file__).resolve().parent
     # 注意：确保这里的路径正确指向你存放Excel的最外层文件夹
     # 根据你的描述，template_dir 应该是包含 "1-饼形图" 等子文件夹的目录
-    template_dir = project_root / "template1"
+    template_dir = project_root / "template"
     
-    output_root = project_root / "outputq"
+    output_root = project_root / "output"
     output_root.mkdir(parents=True, exist_ok=True)
 
     # --- 修改开始 ---

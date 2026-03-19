@@ -31,6 +31,7 @@ def main() -> None:
     output_root = project_root / "output"
     output_root.mkdir(parents=True, exist_ok=True)
 
+
     # --- 修改开始 ---
     # 使用 rglob 递归查找所有子文件夹下的 .xlsx 文件
     # 或者使用: glob("**/*.xlsx")
